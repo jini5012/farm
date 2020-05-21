@@ -30,6 +30,6 @@ object FarmCommand {
         item.itemMeta = meta
         item.addItemFlags(ItemFlag.HIDE_ENCHANTS)
         inv.setItemInMainHand(item)
-        sender.sendMessage("${cropType.name} 씨앗을 인챈트했습니다.")
+        sender.sendMessage("${cropType.name} 씨앗을 인챈트완료!")
     }
 }
